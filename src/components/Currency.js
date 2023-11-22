@@ -15,7 +15,7 @@ const Currency = () => {
 
 
     return (
-        <div>
+        <div className="alert alert-success">
             <span>Currency ({currency})</span>
             <select id="currency_option" onChange={handleOnChangeCurrency} value={currency}>
                 <option value="$" >$ Dollar</option>
